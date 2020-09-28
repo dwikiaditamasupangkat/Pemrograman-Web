@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Page Profile</title>
+      <link rel="icon" type="image/png" href="logo.png">
+      <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
+      <style>
+         body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+           }
+         .background{
+            background-image: url(laptop.jpg);
+            background-repeat: no-repeat;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%; 
+          }
+         .container{
+            width: 500px;
+            height: 630px;
+            background: lightgray;
+            border-radius: 8px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-shadow: 0px 1px 10px 1px #000;
+            overflow: hidden;
+            display: inline-block;
+            overflow-y: scroll;
+            }
+         .container::-webkit-scrollbar{
+            display: none;
+            }
+         .containeratas{
+            height: 100px;
+            background: darkslategray;
+            padding-bottom: 10px;
+            padding-top: 1px;
+            }
+         .containeratas h1{
+            font-family: 'David Libre', serif;
+            font-weight: lighter;
+            text-align: center;
+            line-height:15px;
+         }
+         .containergambar{
+            background: white;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            padding: 5px;
+            transform: translate(195px,0px);
+            }
+         .containergambar img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            }
+         .containerbawah{
+            height: 280px;
+            background: lightgray;
+            padding: 20px;
+            padding-top: 45px;
+            font-family: 'Faustina', serif;
+            }
+            .containerbawah h3,h4{
+            text-align: center;
+            box-sizing: border-box;
+            line-height: .1;
+            }
+         .containerbawah h3{
+            font-size: 28px;
+            font-weight: lighter;
+            }
+         .containerbawah h4{
+            font-size: 20px;
+            opacity: .8;
+            font-weight: bold;
+            }
+         .containerbawah p{
+            font-size: 16px;
+            color: dimgray;
+            margin-bottom: 15px;
+            text-align: justify;
+            }
+         .tabel{
+            width: 100%;
+            border-collapse: collapse;
+            }
+         .tabel th{
+            background: slategray;
+            color: white;
+            padding-left: 5px;
+            
+            text-align: left;
+            text-transform: uppercase;
+            }
+         .tabel td{
+            color: dimgray;
+            padding-left: 5px;
+            padding-top: 1px;
+            }
+         .footer{
+            padding-left: 10px;
+            line-height: 50px;
+            font-size: 13px;
+            color: ghostwhite;
+            position:absolute;
+            bottom:0px;
+            }
+         .kontak{
+            font-family: 'David Libre', serif;
+            text-align: left;
+            font-size: 16px;
+            color: dimgray;
+         }
+         .gambar{
+            background: transparent;
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+            padding-bottom: 20px;
+            }
+         .gambar img{
+            width: 25px;
+            height: 25px;
+            }   
+      </style>
+   </head>
+   <body>
+      <div class="background">
+         <div class="container">
+            <div class="containeratas">
+               <div>
+                  <h1><i>Hello!!</i></h1>
+               </div>
+               <div class="containergambar">
+                  <img src="profil.jpg" />
+               </div>
+            </div>
+            <div class="containerbawah">
+               <div>
+                  <h3>Dwiki Aditama Supangkat</h3>
+                  <hr>
+                  <h4>Overview</h4>
+               </div>
+               <div>
+                  <p>"Saya biasa dipanggil Diki, Lahir di Jombang, 01 Mei 1999. Saya merupakan mahasiswa Informatika di salah satu Universitas di Surabaya. Saya sangat tertarik dengan dunia IT. Itulah mengapa saya mengambil jurusan Informatika saat ini. Selain tertarik dengan dunia IT, saya juga tertarik dengan dunia otomotif."
+                  </p>
+                  <hr>
+               </div>
+               <table class="tabel">
+                  <tr>
+                     <th>Academic Resume</th>
+                     <th></th>
+                  </tr>
+                  <tr>
+                     <td>SDN Podoroto 1
+                     <br>SMPN 1 Kesamben 
+                     <br>SMAN 3 Jombang
+                     <br>S1 UPN "Veteran" Jatim</td>
+                     <td>2005 - 2011
+                     <br>2011 - 2014
+                     <br>2014 - 2017
+                     <br>2018 - Sekarang</td>
+                  </tr>
+               </table>
+               <hr>
+               <table class="tabel">
+                  <tr>
+                     <th>Hobby</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <ul>
+                           <li>Travelling</li>
+                           <li>Swimming</li>
+                           <li>Football</li>
+                        </ul>
+                     </td>
+                  </tr>
+               </table>
+               <table class="tabel">
+                  <tr>
+                     <th>Favorite Movie</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <ol>
+                           <li>The Avangers</li>
+                           <li>Batman</li>
+                           <li>The Expendables</li>
+                        </ol>
+                     </td>
+                  </tr>
+               </table>
+               <hr>
+               <div class="kontak"> Contact me in :
+               </div>
+               <div class="gambar">
+                  <table>
+                     <td><a href="https://www.instagram.com/diki_aditama/" target="_blank" class="gambar"><img src="ig.png" title="instagram"></a></td>
+                     <td><a href="https://wa.me/085804555646" target="_blank" class="gambar"><img src="wa.png" title="WhatsApp"></a></td>
+                     <td><a href="https://line.me/ti/p/vjYNjHEfL5" target="_blank" class="gambar"><img src="line.png" title="Line"></a></td>
+                  </table>
+               </div>
+            </div>
+         </div>
+      <div class="footer">
+      <b><i>Dibuat oleh : Dwiki Aditama S. ~ 18081010064</i></b>
+      </div>
+   </div>
+   </body>
+</html>
